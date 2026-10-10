@@ -1150,21 +1150,15 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "4e619a0e-91b5-4806-85de-9a3a002fcd7f",
+            "id": "beb8b1e9-c0ab-4143-8b59-7b94d5e350bd",
             "source": {
-              "x": 530,
-              "y": -490
+              "x": 590,
+              "y": -520
             },
             "target": {
-              "x": 530,
-              "y": 130
-            },
-            "vertices": [
-              {
-                "x": 420,
-                "y": -320
-              }
-            ]
+              "x": 575,
+              "y": -395
+            }
           }
         ],
         "description": "Corrected data flow diagram showing authentication, feedback storage, and trust boundaries."
