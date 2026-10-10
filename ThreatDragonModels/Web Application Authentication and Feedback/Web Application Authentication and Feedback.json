@@ -1131,6 +1131,40 @@
                 "y": -390
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "4e619a0e-91b5-4806-85de-9a3a002fcd7f",
+            "source": {
+              "x": 530,
+              "y": -490
+            },
+            "target": {
+              "x": 530,
+              "y": 130
+            },
+            "vertices": [
+              {
+                "x": 420,
+                "y": -320
+              }
+            ]
           }
         ],
         "description": "Corrected data flow diagram showing authentication, feedback storage, and trust boundaries."
