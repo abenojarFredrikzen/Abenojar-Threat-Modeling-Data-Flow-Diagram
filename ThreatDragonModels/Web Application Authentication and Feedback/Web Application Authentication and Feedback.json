@@ -910,22 +910,8 @@
               {
                 "x": 480,
                 "y": -10
-              },
-              {
-                "x": 540,
-                "y": -10
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
