@@ -1100,8 +1100,7 @@
             ],
             "id": "c82e76f5-211a-442f-8b23-73fbfdd235f6",
             "source": {
-              "cell": "90e907dd-096d-4323-b722-0ddb43b5d178",
-              "port": "9332b824-fbf4-4d36-ab76-c4e510ae1086"
+              "cell": "90e907dd-096d-4323-b722-0ddb43b5d178"
             },
             "target": {
               "cell": "0ec1a1fc-fe67-428c-a93e-ace147d41b66",
