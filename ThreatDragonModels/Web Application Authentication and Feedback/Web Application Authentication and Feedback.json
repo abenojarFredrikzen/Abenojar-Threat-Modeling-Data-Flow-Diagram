@@ -20,35 +20,6 @@
         "version": "2.6.2",
         "cells": [
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": -1,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Client-Application Booundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Client-Application Booundary"
-            ],
-            "id": "5b4a146c-9a88-4e60-b51d-a142edfae187",
-            "source": {
-              "x": 520,
-              "y": -500
-            },
-            "target": {
-              "x": 520,
-              "y": 130
-            },
-            "vertices": []
-          },
-          {
             "position": {
               "x": 50,
               "y": -165
@@ -1165,7 +1136,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
-            "zIndex": 15,
+            "zIndex": 17,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -1181,12 +1152,12 @@
             ],
             "id": "e1f51025-be20-4350-8c5f-ecff39313268",
             "source": {
-              "x": 480,
-              "y": -380
+              "x": 510,
+              "y": -360
             },
             "target": {
-              "x": 980,
-              "y": -380
+              "x": 970,
+              "y": -360
             },
             "vertices": []
           },
@@ -1194,7 +1165,41 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
-            "zIndex": 16,
+            "zIndex": 18,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Client-Application Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Client-Application Boundary"
+            ],
+            "id": "5b4a146c-9a88-4e60-b51d-a142edfae187",
+            "source": {
+              "x": 470,
+              "y": -480
+            },
+            "target": {
+              "x": 470,
+              "y": 130
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": -110
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 19,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -1210,13 +1215,19 @@
             ],
             "id": "323bf6d6-18f3-4ac7-a259-98af35576898",
             "source": {
-              "x": 1150,
-              "y": -680
+              "x": 1030,
+              "y": -670
             },
             "target": {
-              "x": 1150,
+              "x": 1090,
               "y": 40
-            }
+            },
+            "vertices": [
+              {
+                "x": 1080,
+                "y": -310
+              }
+            ]
           }
         ],
         "description": "Corrected data flow diagram showing authentication, feedback storage, and trust boundaries."
