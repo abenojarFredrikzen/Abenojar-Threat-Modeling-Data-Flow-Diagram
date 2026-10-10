@@ -27,7 +27,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "Client-Application Booundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -35,17 +35,23 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              "Client-Application Booundary"
             ],
-            "id": "5ace2027-49f0-4af3-be1c-a404281a66ab",
+            "id": "5b4a146c-9a88-4e60-b51d-a142edfae187",
             "source": {
-              "x": 468,
-              "y": -495
+              "x": 610,
+              "y": -490
             },
             "target": {
-              "x": 568,
-              "y": -395
-            }
+              "x": 650,
+              "y": 130
+            },
+            "vertices": [
+              {
+                "x": 476,
+                "y": -160
+              }
+            ]
           },
           {
             "position": {
