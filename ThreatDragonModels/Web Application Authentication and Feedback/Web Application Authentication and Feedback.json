@@ -27,35 +27,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Application–Authorization Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Application–Authorization Boundary"
-            ],
-            "id": "e1f51025-be20-4350-8c5f-ecff39313268",
-            "source": {
-              "x": 420,
-              "y": -380
-            },
-            "target": {
-              "x": 1060,
-              "y": -380
-            },
-            "vertices": []
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": -1,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
               "name": "Client-Application Booundary",
               "description": "",
               "isTrustBoundary": true,
@@ -1194,6 +1165,35 @@
                 "y": -480
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 15,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Application–Authorization Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Application–Authorization Boundary"
+            ],
+            "id": "e1f51025-be20-4350-8c5f-ecff39313268",
+            "source": {
+              "x": 480,
+              "y": -380
+            },
+            "target": {
+              "x": 980,
+              "y": -380
+            },
+            "vertices": []
           }
         ],
         "description": "Corrected data flow diagram showing authentication, feedback storage, and trust boundaries."
