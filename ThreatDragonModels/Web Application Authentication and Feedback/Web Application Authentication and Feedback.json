@@ -20,6 +20,62 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "ab4801fc-f453-41ca-a148-1555d9a8a2c8",
+            "source": {
+              "x": 505,
+              "y": -460
+            },
+            "target": {
+              "x": 605,
+              "y": -360
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "d4f8f446-1e08-4f28-92c2-8ec91f4b3e0f",
+            "source": {
+              "x": 244,
+              "y": -430
+            },
+            "target": {
+              "x": 344,
+              "y": -330
+            }
+          },
+          {
             "position": {
               "x": 50,
               "y": -165
@@ -1131,34 +1187,6 @@
                 "y": -390
               }
             ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 15,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "beb8b1e9-c0ab-4143-8b59-7b94d5e350bd",
-            "source": {
-              "x": 590,
-              "y": -520
-            },
-            "target": {
-              "x": 575,
-              "y": -395
-            }
           }
         ],
         "description": "Corrected data flow diagram showing authentication, feedback storage, and trust boundaries."
