@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "",
+  "summary": {
+    "title": "Web Application Authentication and Feedback",
+    "owner": "Fredrikzen Abenojar",
+    "description": "Briefly describe how the browser submits credentials and feedback. The web application requests verification through the authorization provider and LDAP directory and its feedback is stored in the SQL database.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
