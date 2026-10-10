@@ -20,6 +20,34 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Application–Data Services Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Application–Data Services Boundary"
+            ],
+            "id": "d4b9a9ee-384c-4f32-a15f-3659d6b3cc8e",
+            "source": {
+              "x": 1048,
+              "y": -660
+            },
+            "target": {
+              "x": 1050,
+              "y": 50
+            }
+          },
+          {
             "position": {
               "x": 50,
               "y": -165
@@ -1192,40 +1220,6 @@
               {
                 "x": 470,
                 "y": -110
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 19,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "323bf6d6-18f3-4ac7-a259-98af35576898",
-            "source": {
-              "x": 1030,
-              "y": -670
-            },
-            "target": {
-              "x": 1090,
-              "y": 40
-            },
-            "vertices": [
-              {
-                "x": 1080,
-                "y": -310
               }
             ]
           }
