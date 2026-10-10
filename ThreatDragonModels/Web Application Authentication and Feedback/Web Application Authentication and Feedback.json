@@ -1,17 +1,27 @@
 {
   "version": "2.6.2",
   "release_version": "",
-  "released_at": "",
+  "released_at": "2026-10-10",
   "summary": {
     "title": "Web Application Authentication and Feedback",
     "owner": "Fredrikzen Abenojar",
-    "description": "Briefly describe how the browser submits credentials and feedback. The web application requests verification through the authorization provider and LDAP directory and its feedback is stored in the SQL database.",
+    "description": "The browser client submits user credentials and feedback to the web application. The web application requests verification through the authorization provider and LDAP directory, stores feedback in the SQL database, and returns its authentication results and feedback save confirmations to the client.",
     "id": 0
   },
   "detail": {
     "contributors": [],
-    "diagrams": [],
-    "diagramTop": 0,
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
     "reviewer": "",
     "threatTop": 0
   }
