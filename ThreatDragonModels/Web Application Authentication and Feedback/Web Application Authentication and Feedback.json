@@ -138,7 +138,7 @@
           },
           {
             "position": {
-              "x": 615,
+              "x": 625,
               "y": -170
             },
             "size": {
@@ -258,7 +258,7 @@
           },
           {
             "position": {
-              "x": 650,
+              "x": 660,
               "y": -495
             },
             "size": {
@@ -840,58 +840,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Auth Verification",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Auth Verification"
-            ],
-            "id": "f212d5cd-76f7-451e-bde4-536c732a070f",
-            "source": {
-              "x": 725,
-              "y": -170
-            },
-            "target": {
-              "cell": "90e907dd-096d-4323-b722-0ddb43b5d178",
-              "port": "4fce1a7b-7d79-427d-9f58-a09201314bc3"
-            },
-            "vertices": [
-              {
-                "x": 680,
-                "y": -280
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Verified",
               "description": "",
               "outOfScope": false,
@@ -919,10 +867,157 @@
             },
             "vertices": [
               {
-                "x": 780,
-                "y": -280
+                "x": 790,
+                "y": -270
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 11,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Auth Verification",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Auth Verification"
+            ],
+            "id": "f212d5cd-76f7-451e-bde4-536c732a070f",
+            "source": {
+              "x": 725,
+              "y": -170
+            },
+            "target": {
+              "cell": "90e907dd-096d-4323-b722-0ddb43b5d178",
+              "port": "4fce1a7b-7d79-427d-9f58-a09201314bc3"
+            },
+            "vertices": [
+              {
+                "x": 690,
+                "y": -280
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ],
         "description": "Corrected data flow diagram showing authentication, feedback storage, and trust boundaries."
