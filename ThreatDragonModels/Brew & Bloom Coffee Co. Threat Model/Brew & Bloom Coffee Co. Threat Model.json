@@ -1491,58 +1491,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "2.7 Update order record",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "2.7 Update order record"
-            ],
-            "id": "2a6af555-ebfd-45d0-921d-d9c9a78decc9",
-            "source": {
-              "cell": "448304cf-76d0-4a12-a78a-81971986a86e",
-              "port": "68856da1-6029-4f4c-b1d1-e02b38465bb8"
-            },
-            "target": {
-              "cell": "7e548347-99be-419f-bf8c-dc4aa9b5d9e5",
-              "port": "d0ce5a5e-93b0-4963-956e-1ff71f7ab5ed"
-            },
-            "vertices": [
-              {
-                "x": -1330,
-                "y": -70
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "2.6 Submit updated order status",
               "description": "",
               "outOfScope": false,
@@ -1570,8 +1518,60 @@
             },
             "vertices": [
               {
-                "x": -750,
-                "y": -490
+                "x": -780,
+                "y": -480
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.7 Update order record",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "2.7 Update order record"
+            ],
+            "id": "2a6af555-ebfd-45d0-921d-d9c9a78decc9",
+            "source": {
+              "cell": "448304cf-76d0-4a12-a78a-81971986a86e",
+              "port": "9d698e10-cb38-4345-acc9-677fc64abcd9"
+            },
+            "target": {
+              "cell": "7e548347-99be-419f-bf8c-dc4aa9b5d9e5",
+              "port": "d0ce5a5e-93b0-4963-956e-1ff71f7ab5ed"
+            },
+            "vertices": [
+              {
+                "x": -1330,
+                "y": -70
               }
             ]
           },
