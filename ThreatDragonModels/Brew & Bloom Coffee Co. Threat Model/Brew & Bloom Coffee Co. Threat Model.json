@@ -709,7 +709,7 @@
           {
             "position": {
               "x": -1178.75,
-              "y": 83
+              "y": 153
             },
             "size": {
               "width": 250,
@@ -878,7 +878,7 @@
             "vertices": [
               {
                 "x": -1190,
-                "y": -510
+                "y": -500
               }
             ]
           },
@@ -929,8 +929,8 @@
             },
             "vertices": [
               {
-                "x": -1190,
-                "y": -70
+                "x": -1180,
+                "y": -30
               }
             ]
           },
@@ -982,7 +982,7 @@
             "vertices": [
               {
                 "x": -920,
-                "y": -70
+                "y": -30
               }
             ]
           },
@@ -1034,59 +1034,7 @@
             "vertices": [
               {
                 "x": -910,
-                "y": -510
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "2.6 Submit updated order status",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "2.6 Submit updated order status"
-            ],
-            "id": "b33adb32-fe41-49f2-bf71-1c3760ed9103",
-            "source": {
-              "cell": "ca179998-64b2-47f7-88ea-8002dd25b710",
-              "port": "8f9bd07f-95c6-431e-afc0-d48b7728cba5"
-            },
-            "target": {
-              "cell": "448304cf-76d0-4a12-a78a-81971986a86e",
-              "port": "9d698e10-cb38-4345-acc9-677fc64abcd9"
-            },
-            "vertices": [
-              {
-                "x": -1370,
-                "y": -500
+                "y": -520
               }
             ]
           },
@@ -1137,8 +1085,60 @@
             },
             "vertices": [
               {
-                "x": -1320,
-                "y": -100
+                "x": -1350,
+                "y": -110
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "2.6 Submit updated order status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "2.6 Submit updated order status"
+            ],
+            "id": "b33adb32-fe41-49f2-bf71-1c3760ed9103",
+            "source": {
+              "cell": "ca179998-64b2-47f7-88ea-8002dd25b710",
+              "port": "f7872c21-e2e7-4e08-960a-691052e69d34"
+            },
+            "target": {
+              "cell": "448304cf-76d0-4a12-a78a-81971986a86e",
+              "port": "bff127d7-6ac4-4f2c-8209-3b2c78b28311"
+            },
+            "vertices": [
+              {
+                "x": -750,
+                "y": -490
               }
             ]
           },
@@ -1208,82 +1208,7 @@
                 "x": -1050,
                 "y": 10
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           }
         ]
       },
