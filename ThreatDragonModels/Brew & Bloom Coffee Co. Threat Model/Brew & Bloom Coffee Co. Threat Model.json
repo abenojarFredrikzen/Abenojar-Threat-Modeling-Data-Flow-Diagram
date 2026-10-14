@@ -463,8 +463,8 @@
       },
       {
         "title": "2. Barista Updates Order Status",
-        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "diagramType": "STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "diagramType": "Generic",
         "id": 1,
         "version": "2.6.2",
         "description": "",
@@ -1520,7 +1520,8 @@
               }
             ]
           }
-        ]
+        ],
+        "placeholder": "New generic diagram description"
       },
       {
         "title": "3. Manager Accesses Basic Sales Reports",
