@@ -850,7 +850,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Login and request incoming orders",
+              "name": "2.1 Login and request incoming orders",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -864,7 +864,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Login and request incoming orders"
+              "2.1 Login and request incoming orders"
             ],
             "id": "0cbd9f6e-92eb-427a-94f0-176624cbfefc",
             "source": {
@@ -902,7 +902,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Query relevant order data",
+              "name": "2.2 Query relevant order data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -916,7 +916,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Query relevant order data"
+              "2.2 Query relevant order data"
             ],
             "id": "4392f0f2-b2ae-4068-9042-bdfb1b10d209",
             "source": {
@@ -954,7 +954,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Return pending order data",
+              "name": "2.3 Return pending order data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -968,7 +968,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Return pending order data"
+              "2.3 Return pending order data"
             ],
             "id": "a347b309-e573-45fa-b62c-9fcb6d8e2d6a",
             "source": {
@@ -1006,7 +1006,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Return order list",
+              "name": "2.4 Return order list",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1020,7 +1020,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Return order list"
+              "2.4 Return order list"
             ],
             "id": "7e8604dc-69e5-48cb-9e9f-026f62f928a0",
             "source": {
@@ -1058,7 +1058,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submit updated order status",
+              "name": "2.6 Submit updated order status",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1072,7 +1072,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Submit updated order status"
+              "2.6 Submit updated order status"
             ],
             "id": "b33adb32-fe41-49f2-bf71-1c3760ed9103",
             "source": {
@@ -1086,7 +1086,7 @@
             "vertices": [
               {
                 "x": -1370,
-                "y": -490
+                "y": -500
               }
             ]
           },
@@ -1110,7 +1110,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Update order record",
+              "name": "2.7 Update order record",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1124,7 +1124,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Update order record"
+              "2.7 Update order record"
             ],
             "id": "2a6af555-ebfd-45d0-921d-d9c9a78decc9",
             "source": {
@@ -1196,12 +1196,12 @@
             ],
             "id": "ddfdbbcc-9448-441e-8004-49617dc1d7bf",
             "source": {
-              "x": -1460,
-              "y": -180
+              "x": -1470,
+              "y": -110
             },
             "target": {
-              "x": -630,
-              "y": -170
+              "x": -620,
+              "y": -110
             },
             "vertices": [
               {
@@ -1211,6 +1211,16 @@
             ],
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
