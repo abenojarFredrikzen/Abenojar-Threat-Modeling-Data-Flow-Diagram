@@ -1146,40 +1146,6 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
-            "zIndex": 12,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Server/Database Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Server/Database Boundary"
-            ],
-            "id": "ddfdbbcc-9448-441e-8004-49617dc1d7bf",
-            "source": {
-              "x": -1470,
-              "y": -120
-            },
-            "target": {
-              "x": -690,
-              "y": -290
-            },
-            "vertices": [
-              {
-                "x": -1050,
-                "y": 10
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
             "zIndex": 13,
             "connector": "smooth",
             "data": {
@@ -1209,6 +1175,80 @@
                 "y": -470
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 14,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Server/Database Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Server/Database Boundary"
+            ],
+            "id": "ddfdbbcc-9448-441e-8004-49617dc1d7bf",
+            "source": {
+              "x": -1460,
+              "y": -180
+            },
+            "target": {
+              "x": -630,
+              "y": -170
+            },
+            "vertices": [
+              {
+                "x": -1050,
+                "y": 10
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       },
