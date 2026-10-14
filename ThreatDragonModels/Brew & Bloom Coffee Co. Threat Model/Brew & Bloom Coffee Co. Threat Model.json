@@ -877,7 +877,7 @@
             },
             "vertices": [
               {
-                "x": -1230,
+                "x": -1190,
                 "y": -510
               }
             ]
@@ -1033,7 +1033,7 @@
             },
             "vertices": [
               {
-                "x": -1040,
+                "x": -910,
                 "y": -510
               }
             ]
@@ -1086,7 +1086,7 @@
             "vertices": [
               {
                 "x": -1370,
-                "y": -460
+                "y": -490
               }
             ]
           },
@@ -1146,40 +1146,6 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
-            "zIndex": 11,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Client/Server Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Client/Server Boundary"
-            ],
-            "id": "b8464be6-a819-4ad2-a093-f03f7765b33e",
-            "source": {
-              "x": -1460,
-              "y": -580
-            },
-            "target": {
-              "x": -680,
-              "y": -580
-            },
-            "vertices": [
-              {
-                "x": -1060,
-                "y": -430
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
             "zIndex": 12,
             "connector": "smooth",
             "data": {
@@ -1207,6 +1173,40 @@
               {
                 "x": -1050,
                 "y": 10
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 13,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Client/Server Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Client/Server Boundary"
+            ],
+            "id": "b8464be6-a819-4ad2-a093-f03f7765b33e",
+            "source": {
+              "x": -1420,
+              "y": -620
+            },
+            "target": {
+              "x": -680,
+              "y": -620
+            },
+            "vertices": [
+              {
+                "x": -1050,
+                "y": -470
               }
             ]
           }
